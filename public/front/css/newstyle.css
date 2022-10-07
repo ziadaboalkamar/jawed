@@ -1,0 +1,259 @@
+
+/* start talk_about_us */
+
+:root{
+  --primary_color:#76BF39;
+  --secoundary_color:#25387C;
+  --white_color:#fff;
+}
+  .talk_about_us .what_says_in_comment{
+  list-style: none;
+  }
+  .talk_about_us .what_says_in_comment li{
+    padding-right: 25px;
+  display: inline-block;
+    }
+    .talk_about_us .what_says_in_comment li img{
+      width: 70px;
+      display: inline-block;      }
+      .talk_about_us .comment_carousal{
+        margin-top: 35px;
+  
+      }
+      .talk_about_us .comment_carousal .icon_of_qouta{
+        font-size: 35px;
+      color: white;
+      text-align: left;
+  
+      }
+     
+      .talk_about_us .comment_carousal .paragraph_of_client{
+        text-align: -webkit-right;    }
+      .talk_about_us .comment_carousal .what_says_in_comment .name_of_user{
+        color: white;
+        font-size: 18px;
+      }
+      .talk_about_us .comment_carousal .what_says_in_comment span{
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-family: 'secoundFont';
+      }
+      .talk_about_us .comment_carousal .owl-nav{
+        position: relative;
+        left: 5%;
+        font-size: 75px;
+        bottom: 155px;
+      }
+      .talk_about_us .comment_carousal .owl-next{
+        margin-left: 15px;
+        color: white;
+      }
+      .talk_about_us .comment_carousal button.owl-next:focus,
+      .talk_about_us .comment_carousal button.owl-prev:focus{
+        outline: none
+      }
+      .talk_about_us .comment_carousal .owl-next span,
+      .talk_about_us .comment_carousal .owl-prev span{
+        color: #ffffffc4;
+      }
+      .talk_about_us .card {
+        background-color:#ffffff ;
+        border-radius: 0px!important;
+        margin-bottom: 30px;
+      }
+      .talk_about_us .card .number_in_card{
+        color: white;
+      }
+      .talk_about_us .card .number_in_card{
+        font-size: 43px;
+        font-family: 'secoundFont';
+        font-weight: bold;
+      }
+      .talk_about_us .card .card-body{
+        padding: 28px;
+      }
+      .talk_about_us .card .title_of_card{
+        color: #ffffffd6;
+      font-size: 23px;
+      }
+      .talk_about_us .card::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 85%;
+        color: white;
+        border-bottom: 4px solid;
+        margin: 0 auto;
+      }
+      .talk_about_us .card:hover:after{
+      color: #a68c2f;
+      }
+      .talk_about_us .name_of_client_comment span{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'myFirstFont';
+       }
+       .talk_about_us .name_of_client_comment{
+        margin: auto 0;
+       }
+       .talk_about_us .card{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 9px !important;
+      }
+      .talk_about_us .card:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .project_card .progress_icon{
+        background: #ada9ae47;
+        padding: 6px;
+        border-radius: 6px;
+    
+      }
+      .project_card .progress_icon.done{
+        background: #1f971fbf;
+        padding: 6px;
+        border-radius: 6px;
+    
+      }
+      .project_card .progress_icon.end{
+        background: #e10a0ae0;
+        padding: 6px;
+        border-radius: 6px;
+    
+      }
+      .project_card .progress_icon.inprogress{
+        background: #ff5b00bf;
+        padding: 6px;
+        border-radius: 6px;
+    
+      }
+      .project_card .progress_icon.done a,
+      .project_card .progress_icon.end a,
+      .project_card .progress_icon.inprogress a{
+        color: white;
+      }
+      .project_card .progress_icon a{
+        font-size: 12px;
+    font-weight: bold;
+      }
+
+      .project_card .date_and_budget .date_is {
+        padding: 10px;
+        /* background: #e0dfe0; */
+        border: 1px solid #e1e0e2;
+        border-radius: 7px;
+      margin-bottom: 15px;
+      }
+      .project_card .date_and_budget .date_is span{
+        font-family: 'myFirstFont', sans-serif !important;
+        color: #b5b3b7 ;
+
+      }
+      .project_card .show_more a{
+        color: #ffffff;
+        background-color: var(--primary_color);
+        border-radius: 8px;
+        font-family: 'myFirstFont', sans-serif !important;
+        /* background: none; */
+        padding: 10px 72px;
+        border: none;
+      }
+      .hero_index.hero_index_for_sub_pages.projects_div{
+        height: 9vh;
+      }
+
+      .project_card .date_and_budget .date_is.length_of_date{
+        width: 155px;
+      }
+      .project_card .date_and_budget .date_is.length_of_date h6{
+        font-family: 'secoundFont' !important;
+        font-weight: bold;
+      }
+      .project_card .nav-tabs .nav-item.show .nav-link,.project_card .nav-tabs .nav-link.active{
+        background-color: unset;
+        border: none;
+        color: #007bff;
+        font-size: 18px;
+        border-bottom: 2px solid #007bff;
+        border-radius: unset;
+      }
+      .project_card .nav-tabs .nav-link:hover{
+        background-color: unset;
+        border: none;
+        color: #007bff;
+        font-size: 18px;
+        border-bottom: 2px solid #007bff;
+        border-radius: unset;
+      }
+      .project_card .nav-tabs .nav-link {
+        color: #a1a5b7;
+        background: none;
+        border: none;
+        font-size: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    .project_card .nav-tabs .nav-link:focus{
+      outline: none;
+    }
+
+    .tab_of_course ul{
+      list-style: none;
+      padding-right: 0px;
+      
+    }
+    
+    .tab_of_course ul li {
+ font-size: 15px;
+ font-family: 'secoundFont' !important;  
+padding-bottom: 30px;  }
+ .tab_of_course ul li .title_of_data{
+  color: #797c89;
+  font-weight: bold;
+  padding-left: 30px;
+ }
+ .folder h5 a{
+   font-size: 15px;
+   color: black;
+ }
+ .tab_of_course ul li span{
+   font-weight: bold;
+ }
+.proceess {
+  border: 1px dashed #007bff;
+    border-radius: 7px;
+    background-color: #f1faff!important;
+}
+.history{
+  margin-top: 40px;
+  border-bottom: 1px solid #a1a5b738;
+  padding: 0px 67px;
+  padding-bottom: 40px;
+}
+
+.proceess a{
+  padding: 7px 52px;
+}
+.dashboard .tab-content p{
+  color: #5a5757;
+}
+.dashboard .img_of_project{
+  padding: 33px;
+  background-color: #80808014;
+  border-radius: 14px;
+}
+ @media (max-width:567px) {
+
+  .project_card .progress_icon.inprogress{
+    display: block;
+    margin-top: 10px;
+  }
+  .project_card .nav-tabs .nav-item.show .nav-link, .project_card .nav-tabs .nav-link.active,.project_card .nav-tabs .nav-link{
+    font-size: 11px;
+  }
+  .project_card .nav-tabs{
+    padding-right: 0px;
+  }
+ }
+
